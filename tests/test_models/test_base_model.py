@@ -12,5 +12,5 @@ class TestBaseModel(unittest.TestCase):
     '''
 
     def test_ID(self):
-        self.assertIsInstance(BaseModel.id, str)
+        self.assertIsInstance(base_model.BaseModel.id, str)
     
