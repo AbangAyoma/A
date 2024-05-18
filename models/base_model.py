@@ -13,7 +13,7 @@ class BaseModel(cmd.Cmd):
         self.id = str(uuid.uuid4())
 
     def __str__(self):
-        return '[<class name>] (<self.id>) <self.__dict__>'
+        return 'BaseModel' + ' <' + self.id + '> '  + '<self.__dict__ >'
 
 obi = BaseModel()
-print(obi.id)
+print(obi)
