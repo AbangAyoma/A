@@ -54,21 +54,20 @@ class BaseModel(cmd.Cmd):
         super().__setattr__(name, value)
 
 # Create an instance of MyObject
-obj = BaseModel()
+# obj = BaseModel()
 # print("Created at:", obj.created_at)
 # print("Updated at:", obj.updated_at)
 
 # Modify an attribute
-obj.some_attribute = 'New Value'
+# obj.some_attribute = 'New Value'
 # print("Updated at after modification:", obj.updated_at)
 
 # Modify another attribute
-obj.another_attribute = 42
+# obj.another_attribute = 42
 # print("Updated at after another modification:", obj.updated_at)
 
-
-obi = BaseModel()
-print(obi.id)
+# obi = BaseModel()
+# print(obi.id)
 # print("\n")
 # print(BaseModel.__dict__)
 # print("\n")
