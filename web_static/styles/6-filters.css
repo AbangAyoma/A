@@ -8,18 +8,15 @@
     font-size: 16px;
 }
 .popover{
-    padding-left: 0%;
     width: 100%;
     border: 1px #DDDDDD solid;
-    border-radius: 4px;
-    display: none;
+    display: none;   
+    margin-left: 0 20%; 
 }
 .locations:hover .popover, .amenities:hover .popover {
     display: block;
+    transform: scale(1.0);
 }
-
-
-
 
 
 .locations, .amenities {
