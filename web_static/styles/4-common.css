@@ -7,7 +7,7 @@ body {
     
 }
 .container{ 
-    border: 1px #cccccc solid;
+    /* border: 1px #cccccc solid; */
     margin-top: 30px;
     max-width: 1000px;
     margin-left: auto;

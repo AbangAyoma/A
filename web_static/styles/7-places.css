@@ -1,5 +1,7 @@
 .places h1{
     font-size: 30px;
+    diSplay: flex;
+    justify-content: flex-start;
 }
 .places article{
     width: 390px;
