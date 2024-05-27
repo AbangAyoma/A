@@ -13,3 +13,8 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.places{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
