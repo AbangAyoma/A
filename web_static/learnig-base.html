@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+ <html lang="en-US">
+    <head>
+        <meta name="Author" content="Abang Ayoman">
+        <meta property="og:image" content="./images/learnig-base.png">
+        <meta property="og:description"  content="WE teach learners basic html, css and javascript, we also train interested individuals on 
+        responsive web design and mobile development also.">
+        <meta property="og:title" content="001 Developers Network">
+        <!-- third-generation iPad with high-resolution Retina display: -->
+        <link rel="apple-touch-icon" sizes="144x144" href="https://developer.mozilla.org/static/img/favicon144.png" />
+        <!-- iPhone with high-resolution Retina display: -->
+        <link
+        rel="apple-touch-icon"
+        sizes="114x114"
+        href="https://developer.mozilla.org/static/img/favicon114.png" />
+        <!-- first- and second-generation iPad: -->
+        <link
+        rel="apple-touch-icon"
+        sizes="72x72"
+        href="https://developer.mozilla.org/static/img/favicon72.png" />
+        <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+        <link
+        rel="apple-touch-icon"
+        href="https://developer.mozilla.org/static/img/favicon57.png" />
+        <!-- basic favicon -->
+        <link
+        rel="icon"
+        href="https://developer.mozilla.org/static/img/favicon32.png" />
+    </head>
+    <body>
+        <!--One effect of this is that when you link to MDN Web Docs on Facebook, the link appears along with an image and description:
+             a richer experience for users.-->
+        <!--The comments explain what each icon is used for — these elements cover things like providing a n
+            ice high resolution icon to use when the website is saved to an iPad's home screen.-->
+        <a
+          href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US"
+          download="firefox-latest-64bit-installer.exe">
+          Download Latest Firefox for Windows (64-bit) (English, US)
+          <!--When you are linking to a resource that's to be downloaded rather than opened in the browser, you can use the download a
+          attribute to provide a default save filename. Here's an example with a download link to the latest Windows version of Firefox:-->
+        </a>
+        <a
+          href="mailto:nowhere@mozilla.org?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">
+          Send mail with cc, bcc, subject and body
+          <!--Note: The values of each field must be URL-encoded with non-printing characters (invisible characters like tabs, carriage returns,
+        and page breaks) and spaces percent-escaped. Also, note the use of the question mark (?) to separate the main URL from the field values, 
+        and ampersands (&) to separate each field in the mailto: URL. This is standard URL query notation.-->
+        </a>
+        <!--<code>: For marking up generic pieces of computer code.
+        <pre>: For retaining whitespace (generally code blocks) — if you use indentation or excess whitespace inside your text, browsers will 
+          ignore it and you will not see it on your rendered page. If you wrap the text in <pre></pre> tags however, your whitespace will be rendered 
+          identically to how you see it in your text editor.
+        <var>: For specifically marking up variable names.
+        <kbd>: For marking up keyboard (and other types of) input entered into the computer.
+        <samp>: For marking up the output of a computer program.-->
+        <pre><code>const para = document.querySelector('p');
+
+          para.onclick = function() {
+            alert('Owww, stop poking me!');
+          }</code></pre>
+          
+          <p>
+            You shouldn't use presentational elements like <code>&lt;font&gt;</code> and
+            <code>&lt;center&gt;</code>.
+          </p>
+          
+          <p>
+            In the above JavaScript example, <var>para</var> represents a paragraph
+            element.
+          </p>
+          
+          <p>Select all the text with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.</p>
+          
+          <pre>$ <kbd>ping mozilla.org</kbd>
+          <samp>PING mozilla.org (63.245.215.20): 56 data bytes
+          64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
+
+          <p>For Datetme, use: <br /></p>
+          <!-- Standard simple date -->
+          <time datetime="2016-01-20">20 January 2016</time>
+        <!-- Just year and month -->
+        <time datetime="2016-01">January 2016</time>
+        <!-- Just month and day -->
+        <time datetime="01-20">20 January</time>
+        <!-- Just time, hours and minutes -->
+        <time datetime="19:30">19:30</time>
+        <!-- You can do seconds and milliseconds too! -->
+        <time datetime="19:30:01.856">19:30:01.856</time>
+        <!-- Date and time -->
+        <time datetime="2016-01-20T19:30">7.30pm, 20 January 2016</time>
+        <!-- Date and time with timezone offset -->
+        <time datetime="2016-01-20T19:30+01:00">
+          7.30pm, 20 January 2016 is 8.30pm in France
+        </time>
+        <!-- Calling out a specific week number -->
+        <time datetime="2016-W04">The fourth week of 2016</time>
+
+
+        <figure>
+          <img
+            src="images/dinosaur.jpg"
+            alt="The head and torso of a dinosaur skeleton;
+                    it has a large head with long sharp teeth"
+            width="400"
+            height="341" />
+        
+          <figcaption>
+            A T-Rex on display in the Manchester University Museum.
+          </figcaption>
+        </figure>
+    </body>
+ </html>
